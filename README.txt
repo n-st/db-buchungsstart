@@ -14,16 +14,20 @@ gegebenes Datum gebucht werden können.
 Das Ergebnis kann u.a. als lange Liste aller Daten, sowie als iCalendar-Datei
 exportiert werden.
 
+=== Die iCalendar-Dateien gibt es auch fertig hier in den Github-RELEASES ===>
+
+WICHTIGER HINWEIS:
+Alle Angaben ohne Gewähr.
+
 Annahmen:
+- Der Fahrplanwechsel ist am zweiten Sonntag im Dezember.
 - Der Buchungsbeginn "Mitte Oktober" ist exakt 60 Tage vor dem Fahrplanwechsel
   (und fällt somit immer auf einen Mittwoch).
   Das ist nirgends offiziell garantiert, war aber zumindest 2021, 2022 und
   2023 so.
-- "180 Tage vorher" ist offenbar einschließlich des betroffenen Tages
-  gerechnet, d.h. an Tag x kann man tatsächlich nur Ticket bis Tag (x+179)
-  buchen.
-
-WICHTIGER HINWEIS:
-Alle Angaben ohne Gewähr.
-(Insbesondere, aber nicht ausschließlich, ist der Verkaufsbeginn im Oktober
-eine Vermutung, und die Rechnung 179/180-Tage-vorher ist eventuell off-by-1.)
+- "180 Tage vorher" ist einschließlich des betroffenen Tages gerechnet, d.h.
+  an Tag x kann man tatsächlich nur Ticket bis Tag (x+179) buchen (aktuell
+  getestet für den Fahrplan 2024).
+- Verkaufsbeginn ist jeweils um Mitternacht Ortszeit in Deutschland (+ ggf.
+  ein paar Minuten, bis sich der Cache des DB-Verkaufssystems aktualisiert
+  hat).
