@@ -1,6 +1,16 @@
 DB-Buchungsstart-Rechner/Schätzer
 =================================
 
+Update 2024/25
+--------------
+
+Mit Veröffentlichung des Fahrplans für 2025 ändert sich der Vorbuchungszeitraum
+und möglicherweise auch der Vorbuchungsbeginn für Fahrten nach dem Fahrplanwechsel:
+https://www.tagesschau.de/wirtschaft/verbraucher/bahn-vorbuchungsfrist-100.html
+
+!!! Die von diesem Skript berechneten Zeiten sind daher für Reisedaten
+!!! >= 2024-12-08 voraussichtlich NICHT KORREKT.
+
 Kurzfassung:
 - Zugtickets können bei der Deutschen Bahn i.d.R. 180 Tage im Voraus gebucht
   werden.
